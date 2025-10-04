@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>full moon 1</title>
+    </head>
+    <body>
+          <header>
+            <h2><a href="#" class="logo">Full Moon</a></h2>
+            <ul>
+                <li><a href="index.html"class="active">Home</a></li>
+                <li><a href="#"><button onclick="togglePopup()" style="background:none;border: 0px;color: aliceblue;font-size:16.5px ;">About us</button></a></li>
+                <li><a href="#"><button onclick="toggleContact()" style="background:none;border: 0px;color: aliceblue;font-size:16.5px ;">Contact us</button></a></li>
+                
+            </ul>
+        </header>
+        <section class="main">
+            <img src="stars1.jpeg"id="stars">
+            <h2 class="full" style="color:rgb(255, 255, 255)">Off We Go!</h2>
+            <img src="moon2.jpeg"id="moon">
+            <img src="mountains3.jpeg"id="mountains3">
+            <img src="mountains4.jpeg"id="mountains4">
+            <img src="river5.jpeg"id="river">
+            <img src="boat6.jpeg"id="boat">
+            <img src="mountains7.jpeg"id="mountains7">
+        </section>
+         
+        <div class="popup" id="popup-1">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="togglePopup()">&times;
+                </div>
+                <h1>Our Story ...</h1>
+            </br></br>
+               <marquee style="width: 90%;color: aqua;font-size:x-large;"><b>WHAT WE'RE ALL ABOUT</b></marquee>
+            </br></br>
+               <hr style="border: #ff30ff 3px dashed;width:750px;">
+             </br>
+               <h3>Our aim is to gain your trust as parents or  guardians , consequently this puts us in a very high responsibility towards the viewers of our site.</h3>
+            </br>                
+            </br>                
+               <h3><b style="color: aqua;">FULL MOON</b> is an entertainment professional site that promises you can put your hands in cold water ,providing a variety of stories for different ages and of different types whether real , fictional or informational sorted from the most recommended to the least. </h3>
+            </br>                
+            </br>                
+               <h3>It is also trevial that your child could gain alot of morals and ethics in an indirect way , even his analyzing and communicating skills could improve gradually without any hesitation . </h3>
+            </br>                
+            </br>                
+               <h3 style="color: rgb(255, 228, 147);">It is important to emphasize that even if you use our site you have to communicate with your children to ask them what they mostly like about each story they read or listen to , this actually will add a good touch to your bond as a team showing them that their interest is yours too. </h3>
+            </br> 
+            </br>
+            <h3>Finally, if you have any inquery dont hesitate to communicate with us using the <b style="color: aqua;">Contact Us</b> button .</h3> 
+            </div>
+        </div>
+
+        <div class="contact" id="contact-1">
+            <div class="overlay2"></div>
+            <div class="content2">
+            <div class="close-btn" onclick="toggleContact()">&times;
+            </div>
+            <section class="wow">
+                <img src="stars1.jpeg"id="stars">
+            </section>
+           <h1>... Contact Us ...</h1>
+           <input type="text" class="c1"placeholder="Your Full Name:" style="font-size: larger;">
+           <input type="text" class="c1"placeholder="Your Email:"style="font-size: larger;">
+           <input type="text" class="c1"placeholder="Your Phone:"style="font-size: larger;">
+           <textarea class="c2" placeholder="Enter Your Message:"></textarea>
+           <button class="button" value="send" onclick="toggleContact()" ><b>Send</b></button>   
+        </div>
+        </div>
+
+        <div class="content">
+            <h2>You're not in the mood to read a bedtime story ?<br><br><b>DON'T WORRY !!!</b></h2>
+            <hr>
+            <p>Our little ones love stories as much as they love not to sleep early and that's a fact. So why not achieve what they want in a useful way !</p>
+            <p><b style="color:rgb(255, 105, 222);font-size: larger;">FULL MOON</b> is a site that will help you make children sleep easily without having a fight , which is highly considered " a definite institution in many families ".</p>
+            <p>Reading and listening to bedtime stories can be beneficial for kids,were this fixed routine can improve the child's brain development , language mastery , and logical thinking.</p>
+             <p> Also in the ethical feild that are abstract virtues such as <b>sympathy</b> , <b>self-control</b> , and <b>selflessness</b>. </p>
+                <p> If you would like to sail towards our stories , all you have to do is <b style="color:rgb(255, 105, 222);font-size: larger;">&nbsp&nbsp Log in</b>.</p>
+        </div>
+        <div class="center"> 
+        </div>
+        <div class="login">
+                <div class="form">
+                    <h2>Log in</h2>
+                    <div class="form-element">
+                        <label for="email"><b>Email or Phone :</b></label>
+                        <input type="text" id="email"placeholder="Enter email or phone number">
+                    </div>
+                    <div class="form-element">
+                        <label for="password"><b>Password :</b></label>
+                        <input type="password" id="password" placeholder="Enter password"></label>
+                    </div>
+                    <div class="form-element">
+                        <input type="checkbox" id="remember-me">
+                        <label for="remember-me"><b>Remember me</b></label>
+            </div>
+            <div class="form-element">
+                <a href="#"><button onclick="windowopen()" style="background: -webkit-linear-gradient(left,rgb(74,0,58),rgb(128,1,94),rgb(145,11,138),rgb(126,7,181),rgb(34,3,113));border: 2px solid rgb(255, 94, 207);color: aliceblue;font-size: 19px;">Sign in </button></a>
+        
+            </div>
+            <div class="form-element">
+                <a href="#">Forgot password ?</a>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
